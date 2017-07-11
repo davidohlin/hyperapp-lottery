@@ -1,5 +1,5 @@
 # hyperapp-lottery
-> A lottery in hyperapp. [Demo here](http://lottery.surge.sh)
+> A lottery in [hyperapp](https://github.com/hyperapp/hyperapp). [Demo here](http://lottery.surge.sh)
 
 
 ## Why
