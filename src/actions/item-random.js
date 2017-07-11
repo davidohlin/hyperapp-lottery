@@ -1,0 +1,1 @@
+export default (state) => state.items.length >= 1 ? state.items[Math.floor(Math.random() * state.items.length)].value : ''

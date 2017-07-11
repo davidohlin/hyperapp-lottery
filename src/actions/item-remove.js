@@ -1,0 +1,1 @@
+export default (state, e) => state.items.filter(t => e.target.dataset.id !== t.id)

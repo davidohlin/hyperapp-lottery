@@ -1,0 +1,43 @@
+{
+  "name": "create-hyperapp",
+  "version": "1.0.0",
+  "description": "Boilerplate for hyperapp",
+  "license": "MIT",
+  "repository": "davidohlin/create-hyperapp",
+  "author": {
+    "name": "davidohlin",
+    "email": "hello@davidohlin.se",
+    "url": "github.com/davidohlin"
+  },
+  "keywords": "hyperapp",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "webpack -p"
+  },
+  "engine": {
+    "node": ">=6.9.1"
+  },
+  "dependencies": {
+    "actuatejs": "^1.0.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "hyperapp": "^0.9.3",
+    "uuid": "^3.1.0",
+    "webpack": "^3.0.0"
+  },
+  "devDependencies": {
+    "actuatejs": "^1.0.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.0.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "html-webpack-plugin": "^2.29.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.0.0"
+  }
+}
